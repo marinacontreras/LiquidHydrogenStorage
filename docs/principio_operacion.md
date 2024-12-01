@@ -5,12 +5,12 @@
 El almacenamiento de hidrógeno líquido es un proceso criogénico que requiere mantener el hidrógeno a temperaturas extremadamente bajas. A continuación, se detallan los principios fundamentales de este proceso.
 
 En primer lugar, el almacenamiento de L2H depende completamente de las propiedades termodinámicas del hidrógeno, como su temperatura de ebullición y su densidad energética. A presión atmosférica el hidrógeno se encuentra en estado gaseoso, ya que tiene un punto de ebullición de -252,87°C. Por lo tanto, para mantener el hidrógeno en estado líquido se necesitan temperaturas criogénicas. Luego, a pesar de que el hidrógeno líquido tiene una densidad mucho menor que los combustibles fósiles, es significativamente más denso que el hidrógeno gaseoso, lo que lo hace útil para almacenamiento eficiente [16].
-![Tabla comparativa entre hidrógeno gaseoso comprimido e hidrógeno líquido](Caracteristicas.png)
+![Tabla comparativa entre hidrógeno gaseoso comprimido e hidrógeno líquido](imagenes/Caracteristicas.png)
 
 En segundo lugar, la molécula de hidrógeno existe en dos isómeros diferentes: orto-hidrógeno (menos estable) y para-hidrógeno (más estable). La diferencia entre estos isómeros es la dirección del giro de su núcleo, lo que da como resultado propiedades diferentes. 
-![Figura de los isómeros orto y para del hidrógeno](orto-para.png)
+![Figura de los isómeros orto y para del hidrógeno](imagenes/orto-para.png)
 Se sabe que la conversión orto/para depende de la temperatura. Durante la licuefacción, la conversión de orto a para genera calor. Este calor es un desafío adicional para los sistemas de enfriamiento criogénico.
-![Conversión al isómero para en función la temperatura](conversion op.png)
+![Conversión al isómero para en función la temperatura](imagenes/conversion_op.png)
 
 ## 3. Transferencia de Calor y Pérdidas por Boil-off
 - **Aislamiento térmico**: Debido a la constante transferencia de calor hacia el sistema, los tanques de almacenamiento de hidrógeno líquido deben estar aislados térmicamente para reducir las pérdidas de hidrógeno por evaporación (*boil-off*).

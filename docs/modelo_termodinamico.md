@@ -12,7 +12,7 @@ Q = \frac{U \cdot A \cdot (T_{\text{amb}} - T_{\text{tanque}})}{L}
 $$
 
 Donde:
-- \( Q \): Tasa de transferencia de calor (W).
+- \(Q\): Tasa de transferencia de calor (W).
 - \( U \): Coeficiente de transferencia de calor (W/m²·K).
 - \( A \): Área del tanque (m²).
 - $$ T_{\text{amb}} $$: Temperatura ambiente (K).

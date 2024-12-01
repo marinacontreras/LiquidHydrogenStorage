@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 # Modelo termodinámico
 
 Este modelo matemático describe el comportamiento del almacenamiento de hidrógeno líquido considerando los principales fenómenos físicos y termodinámicos. Incluye ecuaciones para transferencia de calor, pérdidas por boil-off, dinámica de presión, conservación de energía y el efecto de la conversión orto-para.

@@ -7,9 +7,9 @@ Este modelo matemático describe el comportamiento del almacenamiento de hidróg
 ## 1. Transferencia de calor al tanque
 El tanque de hidrógeno líquido intercambia calor con el ambiente, lo que puede causar una elevación de la temperatura interna y pérdidas por evaporación (*boil-off*). La cantidad de calor transferido se calcula como:
 
-\[
+$$
 Q = \frac{U \cdot A \cdot (T_{\text{amb}} - T_{\text{tanque}})}{L}
-\]
+$$
 
 Donde:
 - \( Q \): Tasa de transferencia de calor (W).
@@ -24,9 +24,9 @@ Donde:
 ## 2. Pérdidas por boil-off
 El calor transferido al tanque provoca la evaporación del hidrógeno líquido, lo que genera pérdidas de *boil-off*. La tasa de evaporación se calcula mediante:
 
-\[
+$$
 \dot{m}_{boil-off} = \frac{Q}{L_v}
-\]
+$$
 
 Donde:
 - \( \dot{m}_{boil-off} \): Tasa de evaporación del hidrógeno (kg/s).
@@ -37,9 +37,9 @@ Donde:
 ## 3. Dinámica de presión
 La presión dentro del tanque cambia debido al aumento de masa de hidrógeno gaseoso generado por el *boil-off*:
 
-\[
+$$
 \frac{dP}{dt} = \frac{R \cdot T_{\text{tanque}} \cdot \dot{m}_{boil-off}}{V}
-\]
+$$
 
 Donde:
 - \( P \): Presión interna del tanque (Pa).
@@ -51,9 +51,9 @@ Donde:
 ## 4. Conservación de energía
 El balance energético del sistema se describe mediante:
 
-\[
+$$
 \frac{dU}{dt} = Q - \dot{W} + \dot{m}_{in} h_{in} - \dot{m}_{out} h_{out}
-\]
+$$
 
 Donde:
 - \( U \): Energía interna del hidrógeno en el tanque (J).
@@ -66,9 +66,9 @@ Donde:
 ## 5. Efecto de la conversión orto-para (OPC)
 Durante el almacenamiento, el hidrógeno cambia entre sus formas orto y para, liberando calor adicional:
 
-\[
+$$
 Q_{OPC} = \Delta H_{OPC} \cdot \frac{d\chi_{\text{para}}}{dt}
-\]
+$$
 
 Donde:
 - \( Q_{OPC} \): Calor liberado por la conversión orto-para (W).

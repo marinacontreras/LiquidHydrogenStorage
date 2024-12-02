@@ -24,44 +24,36 @@ Por otro lado, puede elegir las condiciones operativas de temperatura, presión 
 ## **Códigos disponibles**
 
 ### Scripts principales
-- `simulacion_interactiva.m`: Controla la simulación interactiva y permite al usuario elegir parámetros iniciales y estado de simulación.
-- `hydrogen_model.m`: Función que define las ecuaciones diferenciales que describen el modelo termodinámico. Corresponde a la modificación parcial de `hydrogen_storage.m`
-- `simulacion_estacionaria.m`: Función que implementa la simulación completa para el estado estacionario.
-- `simulacion_transiente.m`: Función que implementa la simulación completa para el estado transiente, corresponde a la modificación parcial de `LiquidHydrogenStorage.m`.
+- `simulacion_interactiva.m`: Controla la simulación interactiva y contiene todas las funciones necesarias.
 
 ---
 
 ## **Requisitos**
 
 - MATLAB R2021a o superior.
-- Toolbox: **Symbolic Math Toolbox** 
+- Toolbox: **Symbolic Math Toolbox** y **Optimization Toolbox**
 
 ---
 
 ## Instrucciones de uso
 
 ### 1. Preparación de los archivos
-Los archivos MATLAB están disponibles en la carpeta `scripts`. Los cuatro scripts deben encontrarse guardados en la misma carpeta para que se pueda ejecutar el código.
+Los archivos MATLAB están disponibles en la carpeta `scripts`. 
 
 ### 2. Ejecutar los scripts
-El principal archivo con el cual se trabaja es el `simulacion_interactiva.m`. Los otros tres archivos no se deben modificar, a menos que se quiera hacer un cambio en el modelo, y no solo en los parámetros
-1. Abre el archivo `simulacion_interactiva.m` en MATLAB. 
-2. Define los parámetros iniciales dentro del script.
+El único archivo con el cual se trabaja es el `simulacion_interactiva.m`. 
+1. Abre el archivo `simulacion_interactiva.m` en MATLAB.
+2. Ejecuta el script.
+3. En la ventana que aparece, ajusta los parámetros iniciales con los sliders.
   - Temperatura ambiente entre 250-310 K
   - Presión entre 1-3 bar
   - Flujo de energía entre 0-500 W
-4. Elige el estado en el cual quiere que ocurra el proceso.
-  - Estado estacionario (1)
-  - Estado transiente (2)
-5. Ejecuta el script. 
+4. En la misma ventana, selecciona el modo de simulación.
+  - Estado estacionario
+  - Estado transiente
 
 ### 3. Salidas de los modelos
-Al ejecutar los scripts en el estado estacionario se obtienen tres valores fijos representados en un gráfico de barra con tres barras:
-- Temperatura del tanque 
-- Presión en el tanque
-- Fracción molar de para-hidrógeno
-
-Al ejecutar los scripts en el estado transiente se obtienen tres gráficos:
+Al ejecutar el script en se obtienen tres gráficos:
 - Evolución de la temperatura en el tanque
 - Evolución de la presión en el tanque
 - Evolución de la fracción molar de para-hidrógeno

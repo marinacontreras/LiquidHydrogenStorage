@@ -28,3 +28,4 @@ Donde:
 
 - $$\Delta S$$ es el cambio de entropía del sistema.
 
+## Código

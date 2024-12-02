@@ -12,12 +12,12 @@ Q = \frac{U \cdot A \cdot (T_{\text{amb}} - T_{\text{tanque}})}{L}
 $$
 
 Donde:
-- \( Q \): Tasa de transferencia de calor (W).
-- \( U \): Coeficiente de transferencia de calor (W/m²·K).
-- \( A \): Área del tanque (m²).
-- \( T_{\text{amb}} \): Temperatura ambiente (K).
-- \( T_{\text{tanque}} \): Temperatura del hidrógeno líquido en el tanque (K).
-- \( L \): Espesor del aislamiento térmico (m).
+- $$Q$$: Tasa de transferencia de calor (W).
+- $$U$$: Coeficiente de transferencia de calor (W/m²·K).
+- $$A$$: Área del tanque (m²).
+- $$T_{\text{amb}}$$: Temperatura ambiente (K).
+- $$T_{\text{tanque}}$$: Temperatura del hidrógeno líquido en el tanque (K).
+- $$L$$: Espesor del aislamiento térmico (m).
 
 ---
 
@@ -29,8 +29,8 @@ $$
 $$
 
 Donde:
-- \( \dot{m}_{boil-off} \): Tasa de evaporación del hidrógeno (kg/s).
-- \( L_v \): Calor latente de vaporización del hidrógeno (~446 kJ/kg).
+- $$\dot{m}_{boil-off}$$: Tasa de evaporación del hidrógeno (kg/s).
+- $$L_v$$: Calor latente de vaporización del hidrógeno (~446 kJ/kg).
 
 ---
 
@@ -42,9 +42,9 @@ $$
 $$
 
 Donde:
-- \( P \): Presión interna del tanque (Pa).
-- \( R \): Constante específica de gas para el hidrógeno (\( 4124 \, \text{J}/\text{kg}\cdot\text{K} \)).
-- \( V \): Volumen del tanque (m³).
+- $$P$$: Presión interna del tanque (Pa).
+- $$R$$: Constante específica de gas para el hidrógeno ($$4124 \ \text{J}/\text{kg}\cdot\text{K}$$).
+- $$V$$: Volumen del tanque (m³).
 
 ---
 
@@ -52,14 +52,14 @@ Donde:
 El balance energético del sistema se describe mediante:
 
 $$
-\frac{dU}{dt} = Q - \dot{W} + \dot{m}_{in} h_{in} - \dot{m}_{out} h_{out}
+\frac{dU}{dt} = Q - \dot{W} + \dot{m_{in}} h_{in} - \dot{m_{out}} h_{out}
 $$
 
 Donde:
-- \( U \): Energía interna del hidrógeno en el tanque (J).
-- \( \dot{W} \): Trabajo realizado por el sistema (W).
-- \( \dot{m}_{in} \), \( \dot{m}_{out} \): Tasa de flujo másico de entrada y salida (kg/s).
-- \( h_{in} \), \( h_{out} \): Entalpías específicas de entrada y salida (J/kg).
+- $$U$$: Energía interna del hidrógeno en el tanque (J).
+- $$\dot{W}$$: Trabajo realizado por el sistema (W).
+- $$\dot{m_{in}}$$, $$\dot{m_{out}}$$: Tasa de flujo másico de entrada y salida (kg/s).
+- $$h_{in}$$, $$h_{out}$$: Entalpías específicas de entrada y salida (J/kg).
 
 ---
 
@@ -71,12 +71,12 @@ Q_{OPC} = \Delta H_{OPC} \cdot \frac{d\chi_{\text{para}}}{dt}
 $$
 
 Donde:
-- \( Q_{OPC} \): Calor liberado por la conversión orto-para (W).
-- \( \Delta H_{OPC} \): Calor liberado durante la conversión (~703 J/mol).
-- \( \chi_{\text{para}} \): Fracción molar de para-hidrógeno.
-- \( \frac{d\chi_{\text{para}}}{dt} \): Tasa de conversión orto-para.
+- $$Q_{OPC}$$: Calor liberado por la conversión orto-para (W).
+- $$\Delta H_{OPC}$$: Calor liberado durante la conversión (~703 J/mol).
+- $$\chi_{\text{para}}$$: Fracción molar de para-hidrógeno.
+- $$\frac{d\chi_{\text{para}}}{dt}$$: Tasa de conversión orto-para.
 
 ---
 
 ## Resolución Numérica
-Estas ecuaciones pueden resolverse mediante métodos numéricos en MATLAB, utilizando funciones como `ode45`. Un ejemplo de implementación básica está disponible en la carpeta llamda `code` para simular la evolución de la temperatura, la presión y la fracción de para-hidrógeno en el tanque bajo diferentes condiciones.
+Estas ecuaciones pueden resolverse mediante métodos numéricos en MATLAB, utilizando funciones como `ode45`. La implementación básica de este modelo está disponible en la carpeta llamda `code`, donde se simula la evolución de la temperatura, la presión y la fracción de para-hidrógeno en el tanque bajo diferentes condiciones. Los parámetros del tanque en el código son aproximaciones basadas en valores típicos usados en simulaciones y estudios teóricos de almacenamiento criogénico. Además, esta implementación se basa en el ejemplo `Liquid Hydrogen Storage and Transportation` [18].

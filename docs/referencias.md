@@ -31,6 +31,8 @@
 
 [16] A. Naquash, N. Agarwal, and M. Lee, "A Review on Liquid Hydrogen Storage: Current Status, Challenges and Future Directions," Sustainability, vol. 16, no. 8, pp. 8270, 2024. doi: 10.3390/su16188270.
 
-[17] M. Aziz, "Liquid Hydrogen: A Review on Liquefaction, Storage, Transportation, and Safety," Energies, vol. 14, no. 18, pp. 5917, 2021. doi: 10.3390/en14185917.
+[17] L. M. Claussner, F. Ustolin, and G. E. Scarponi, “Design and Operation of Liquid Hydrogen Storage Tanks”, Chemical Engineering Transactions, vol. 111, pp. 31-36, Oct. 2024.
 
-[18] "Liquid Hydrogen Storage and Transportation Example," MathWorks, 2021. [Enlace]. Available: https://la.mathworks.com/help/hydro/ug/LiquidHydrogenStorageAndTransportationExample.html#LiquidHydrogenStorageAndTransportationExample-9.
+[18] M. Aziz, "Liquid Hydrogen: A Review on Liquefaction, Storage, Transportation, and Safety," Energies, vol. 14, no. 18, pp. 5917, 2021. doi: 10.3390/en14185917.
+
+[19] "Liquid Hydrogen Storage and Transportation Example," MathWorks, 2021. [Enlace]. Available: https://la.mathworks.com/help/hydro/ug/LiquidHydrogenStorageAndTransportationExample.html#LiquidHydrogenStorageAndTransportationExample-9.

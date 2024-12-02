@@ -8,4 +8,5 @@ Modelo de simulación para el almacenamiento criogénico de hidrógeno líquido 
 - - [Desarrollo del modelo termodinámico](docs/modelo_termodinamico.md)
 - - [Códico del modelo termodinámico](scripts/modelo_termodinamico.md)
 - [Simulación interactiva](scripts/simulacion_interactiva.md)
+- [Evaluación de la eficiencia](scripts/evaluacion_eficiencia.md)
 - [Conclusiones y recomendaciones](docs/conclusiones.md)

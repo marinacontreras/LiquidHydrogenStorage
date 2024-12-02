@@ -10,3 +10,4 @@ Modelo de simulación para el almacenamiento criogénico de hidrógeno líquido 
 - [Simulación interactiva](scripts/simulacion_interactiva.md)
 - [Evaluación de la eficiencia energética](scripts/evaluacion_eficiencia.md)
 - [Conclusiones y recomendaciones](docs/conclusiones.md)
+- [Referencias](docs/referencias.md)
